@@ -1,15 +1,15 @@
-###Демо
+### Демо
 логин/пароль 
 
 webmaster/webmaster
 
 http://cl64252.tmweb.ru/backend/web/
 
-###Демо API
+### Демо API
 Secret: secretsecretsecret
 http://cl64252.tmweb.ru/api/web/v1/
 
-####Примеры запросов (curl)
+#### Примеры запросов (curl)
 
 1 GET /categories 
 ```
@@ -39,7 +39,7 @@ curl --location --request GET 'http://cl64252.tmweb.ru/api/web/v1/words/5' \
 --header 'Secret: secretsecretsecret'
 ```
 
-###Установка
+### Установка
 1. [Установить composer](https://getcomposer.org)
 2. [Установить docker](https://docs.docker.com/install/)
 3. [Установить docker-compose](https://docs.docker.com/compose/install/)
